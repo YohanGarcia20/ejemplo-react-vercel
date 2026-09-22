@@ -28,12 +28,7 @@ function App() {
         >
           <h4>El contador de Count esta sumando {count}</h4>
         </button>
-        <button>
-          type="button"
-          className="counter"
-          onClick={() => setCount((count2) => count2 - 20)}
-          <h4>El contador de Count esta restando {count2}</h4>
-        </button>
+       
       </section>
 
       <div className="ticks"></div>
